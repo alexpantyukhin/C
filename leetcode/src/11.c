@@ -9,6 +9,8 @@ int maxArea(int *height, int heightSize)
     int end = heightSize - 1;
     int res = 0;
 
+    
+    
     while (start < end)
     {
         // Calculate current area by taking minimum of two heights
